@@ -2,6 +2,8 @@ This site contains documentation for Blur modules used on the [MCBall](https://m
 
 Some documentation is for the open source modules available from the [Blur project](https://github.com/BlurEngine/Blur). The remainder is from the closed source CodeRack project used within MCBall. Pages for modules are labelled accordingly.
 
+All configuration uses YAML. Examples of YAML formatting can be found [here](YAML-Basics.md).
+
 ## Module List
 ### Blur
 - Root `map` section
