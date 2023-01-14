@@ -4,6 +4,8 @@ Some documentation is for the open source modules available from the [Blur proje
 
 All configuration uses YAML. Examples of YAML formatting can be found [here](YAML-Basics.md).
 
+Templates for each game mode can be found [here](default-config.md).
+
 ## Module List
 ### Blur
 - Root `map` section
