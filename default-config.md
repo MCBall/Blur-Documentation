@@ -1,5 +1,7 @@
 The below configs are standard templates for various gamemodes and are a good starting point for map configuration.
 
+### This will be updated with more helpful details in the future. 
+
 # CTF
 
 ``` YAML
