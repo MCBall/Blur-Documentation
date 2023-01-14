@@ -1,6 +1,6 @@
-YAML is a configuration file format commonly used in Minecraft. Below are some examples of YAML formatting. Attention to indentation is important as it defines the levels of subsections. ---
+YAML is a configuration file format commonly used in Minecraft. Below are some examples of YAML formatting. Attention to indentation is important as it defines the levels of subsections.
 
-```YAML
+```YML
 section:
   subsection:
     property: "value"
