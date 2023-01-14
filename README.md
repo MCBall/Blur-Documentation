@@ -1,4 +1,3 @@
-# Blur Documentation
 This site contains documentation for Blur modules used on the [MCBall](https://mcball.net) server. Contained herein are pages with descriptions, examples, and recommendations for usage of Blur modules.
 
 Some documentation is for the open source modules available from the [Blur project](https://github.com/BlurEngine/Blur). The remainder is from the closed source CodeRack project used within MCBall. Pages for modules are labelled accordingly.
