@@ -1,15 +1,25 @@
-# Blur-Documentation
-Documentation for Blur configuration
+# Blur Documentation
+This site contains documentation for Blur modules used on the [MCBall](https://mcball.net) server. Contained herein are pages with descriptions, examples, and recommendations for usage of Blur modules.
 
-```
-- Extents:
-  - id: deathbox
-    protect: true
-    cuboid:
-      max: 6.0, 108.0, -87.0
-      min: -9.0, 93.0, -104.0
-  - id: deathbox-spawns
-    cuboid:
-      max: 4.0, 100.5, -89.0
-      min: -7.0, 100.5, -100.0
-```
+Some documentation is for the open source modules available from the [Blur project](https://github.com/BlurEngine/Blur). The remainder is from the closed source CodeRack project used within MCBall. Pages for modules are labelled accordingly.
+
+## Module List
+### Blur
+- Root `map` section
+- `Extents`
+- `Teams`
+- `Spawns`
+- `Goal`
+- `WorldProtect`
+- `FixedHunger`
+
+### CodeRack
+- `StaggeredGroupRespawns`
+- `Paintball`
+- `CaptureTheFlag`
+- `MultiKill`
+- `OutOfBounds`
+- `Suffocation`
+- `CTFStats`
+- `Intro`
+- `EndGameStats`
