@@ -1,6 +1,7 @@
 title: MCBall Blur Documentation
 description: Blur documentation for the MCBall server.
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter: rouge
