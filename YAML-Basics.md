@@ -13,7 +13,7 @@ section:
 
 Note that the following formats are equivalent. In particular, the way the list `flags` is broken up into items.
 
-``` YAML
+```YAML
 - CaptureTheFlag:
     flags:
     - home: 8.5, 18.0, -72.5
