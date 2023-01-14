@@ -6,7 +6,7 @@ Some documentation is for the open source modules available from the [Blur proje
 ## Module List
 ### Blur
 - Root `map` section
-- `Extents`
+- [`Extents`](modules/Extents.md)
 - `Teams`
 - `Spawns`
 - `Goal`
