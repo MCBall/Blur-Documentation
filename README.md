@@ -26,3 +26,4 @@ Templates for each game mode can be found [here](default-config.md).
 - `CTFStats`
 - `Intro`
 - `EndGameStats`
+- [`CommandPortals`](modules/CommandPortals.md)
