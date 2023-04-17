@@ -1,6 +1,6 @@
 # `CommandPortals` module
 
-The CommandPortals module allows portals to be defined that will run a command when a player enters the portal extent. This requires an extent to be defined for each portal. However, if a portal area needs to run multiple commands, multiple portals could use the same extent.
+The CommandPortals module allows portals to be defined that will run a command when a player enters the portal extent. This requires an extent to be defined for each portal. However, if a portal area needs to run multiple commands, multiple portals could use the same extent. It's worth noting that the term "portal" here is just semantic, the logic is solely based on the extent which can physically contain anything (or nothing).
 
 Example `CommandPortals` configuration:
 
