@@ -15,6 +15,7 @@ Templates for each game mode can be found [here](default-config.md).
 - `Goal`
 - `WorldProtect`
 - `FixedHunger`
+- [`BControlPoints`](modules/BControlPoints.md)
 
 ### CodeRack
 - `StaggeredGroupRespawns`
@@ -27,3 +28,4 @@ Templates for each game mode can be found [here](default-config.md).
 - `Intro`
 - `EndGameStats`
 - [`CommandPortals`](modules/CommandPortals.md)
+- [`Conquest`](modules/Conquest.md)
