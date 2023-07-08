@@ -2,8 +2,15 @@ BControlPoints is the Blur control points module. It handles defining points and
 
 `BControlPoints` depends on `Extents` for the control point areas. Each point must have at least an `id`, `name`, and `capture` extent.
 
-In addition to those, an `indicator` extent can be defined, within which all blocks of material `neutral-material` get replaced by `team-materials` when the relevant teams capture the point. The teams `id` fields here must match the team `id` field in the `Teams` module.
+## Point Capture Indicators
+An `indicator` extent can be defined, within which all blocks of material `neutral-material` get replaced by `team-materials` when the relevant teams capture the point. The teams `id` fields here must match the team `id` field in the `Teams` module.
 
+## Capture Time Variability
+The capture time can be varied based on the number of players. The `time-modifier-per-player` parameter should be a relative operator that is applied recursively for each extra player on a control point (ignoring the initial player). The modifier is for the total capture time and scales pro rata for ongoing captures. The minimum time can be set using the `min-capture-time` parameter.
+
+Note: `~` denotes relative. Due to oddities in the order of operations, only multiplication (`*`) and addition (`+`) should be used. However, division can be used by multiplying by the reciprocal, and subtraction can be used by adding a negative number. In both cases, the operator must still be specified (see the example below).
+
+## Example Configuration
 Example `BControlPoints` configuration:
 
 ```
@@ -25,6 +32,8 @@ Example `BControlPoints` configuration:
 
 - BControlPoints:
     capture-time: 5s
+    time-modifier-per-player: ~+-500
+    min-capture-time: 2s
     control-points:
     - id: shard
       name: Shard
