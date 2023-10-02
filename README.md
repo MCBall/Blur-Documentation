@@ -29,3 +29,5 @@ Templates for each game mode can be found [here](default-config.md).
 - `EndGameStats`
 - [`CommandPortals`](modules/CommandPortals.md)
 - [`Conquest`](modules/Conquest.md)
+- [`SimpleJumpPads`](modules/SimpleJumpPads.md)
+- [`FixedJumpPads`](modules/FixedJumpPads.md)
