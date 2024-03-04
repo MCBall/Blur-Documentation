@@ -19,19 +19,19 @@ Killstreak options:
 - `ks-5-flashbangs` - Number of flashbangs to give a player when they achieve a 5 killstreak.
 - `ks-7-reload-flashbangs` - Number of flashbangs to give a player each time they reload after a 7 killstreak.
 
-  ### Example/default configuration
-  ```
-  - Paintball:
-    kit-configs:
-    - agent:
-        base-radius: 3
-        max-placed-flashbangs: 2
-        flashbang-duration: 5s
-        max-held-flashbangs: 2
-        explosion-delay: 0ms
-        ks-3-flashbangs: 1
-        ks-3-radius: ~+1
-        ks-5-flashbangs: 2
-        ks-7-reload-flashbangs: 1
-  ```
-  _**Note**: the `explosion-delay` option here causes the flashbang to go off on the next tick._
+### Example/default configuration
+```
+- Paintball:
+  kit-configs:
+  - agent:
+      base-radius: 3
+      max-placed-flashbangs: 2
+      flashbang-duration: 5s
+      max-held-flashbangs: 2
+      explosion-delay: 0ms
+      ks-3-flashbangs: 1
+      ks-3-radius: ~+1
+      ks-5-flashbangs: 2
+      ks-7-reload-flashbangs: 1
+```
+_**Note**: the `explosion-delay` option here causes the flashbang to go off on the next tick._
