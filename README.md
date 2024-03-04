@@ -19,7 +19,7 @@ Templates for each game mode can be found [here](default-config.md).
 
 ### CodeRack
 - `StaggeredGroupRespawns`
-- `Paintball`
+- [`Paintball`](modules/Paintball.md)
 - `CaptureTheFlag`
 - `MultiKill`
 - `OutOfBounds`
