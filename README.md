@@ -6,6 +6,8 @@ All configuration uses YAML. Examples of YAML formatting can be found [here](YAM
 
 Templates for each game mode can be found [here](default-config.md).
 
+Many configuration options use common serializers (how data is formatted). Details of many of these can be found [here](Common-Serializers.md).
+
 ## Module List
 ### Blur
 - Root `map` section
