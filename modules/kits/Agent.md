@@ -1,9 +1,9 @@
 # Agent kit
 Place flashbang mines to blind your foes.
 
-3: Receive ONE extra flashbang mine and increased flash radius.
-5: Receive TWO extra flashbang mines.
-7: Receive ONE extra flashbang mine when you reload.
+3 - Receive ONE extra flashbang mine and increased flash radius. \
+5 - Receive TWO extra flashbang mines. \
+7 - Receive ONE extra flashbang mine when you reload.
 
 ### Configuration options
 General options:
