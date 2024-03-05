@@ -1,4 +1,4 @@
-# Agent kit
+# Commando kit
 Reload faster. Press sneak while sprinting to dive and slide.
 
 3 - Immediately reload and your reload time is reduced to 2 seconds. \
