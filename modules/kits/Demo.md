@@ -11,7 +11,7 @@ General options:
 - `restore-delay-initial` - Duration between C4 explosion and first block being restored.
 - `restore-delay-interval` - Duration between blocks being restored.
 - `max-c4` - Maximum C4 bombs a player can have in their inventory.
-- `base-cooldown - Duration a player must wait to receive an extra C4 bomb.
+- `base-cooldown` - Duration a player must wait to receive an extra C4 bomb.
 
 Killstreak options:
 - `ks-3-cooldown` - Relative duration to modify `base-cooldown` on a 3 killstreak.
