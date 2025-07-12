@@ -10,3 +10,4 @@ Example `FreeKits` configuration:
   - ninja
   - ricochet
 ```
+_**Note**: leaving the list of kits empty will make all kits free._
