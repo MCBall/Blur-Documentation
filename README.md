@@ -33,3 +33,4 @@ Many configuration options use common serializers (how data is formatted). Detai
 - [`Conquest`](modules/Conquest.md)
 - [`SimpleJumpPads`](modules/SimpleJumpPads.md)
 - [`FixedJumpPads`](modules/FixedJumpPads.md)
+- [`FreeKits`](modules/FreeKits.md)
