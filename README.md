@@ -35,4 +35,4 @@ Many configuration options use common serializers (how data is formatted). Detai
 - [`SimpleJumpPads`](modules/SimpleJumpPads.md)
 - [`FixedJumpPads`](modules/FixedJumpPads.md)
 - [`FreeKits`](modules/FreeKits.md)
-- [`FreeKits`](modules/Parkour.md)
+- [`Parkour`](modules/Parkour.md)
