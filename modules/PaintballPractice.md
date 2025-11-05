@@ -8,7 +8,7 @@ The PaintballPractice module emulates just the throwing paintballs aspect of the
 - `targets` - A list of locations at which to spawn target pigs.
 
 
-Example `Paintball` configuration (all values here are their defaults, except for `targets`):
+Example `PaintballPractice` configuration (all values here are their defaults, except for `targets`):
 
 ```
 - PaintballPractice:
