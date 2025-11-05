@@ -22,6 +22,7 @@ Many configuration options use common serializers (how data is formatted). Detai
 ### CodeRack
 - `StaggeredGroupRespawns`
 - [`Paintball`](modules/Paintball.md)
+- [`PaintballPractice`](modules/PaintballPractice.md)
 - `CaptureTheFlag`
 - `MultiKill`
 - `OutOfBounds`
