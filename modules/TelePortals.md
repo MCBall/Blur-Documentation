@@ -16,6 +16,7 @@ Each group has the following configuration options:
 - `momentum` - Whether the entity retains its momentum when teleported. - Default: `true`
 - `transform-direction` - Whether the entity direction is transformed when teleported. - Default: `true`
 - `portals` - The array of portals.
+- `players-only` - Whether a portal is restricted to only teleport players. - Default: `false`
 
 The root of the configuration is simply `groups` which is a list of portal groups.
 
