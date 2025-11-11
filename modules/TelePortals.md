@@ -7,14 +7,14 @@ The fundamental structure of the module is groups of portals. Each group can hav
 Each portal has the following configuration options:
 - `extent` - A `cuboid` extent covering the portal area.
 - `direction` - The axis-aligned vector defining the active direction of the portal (length 1).
-- `up` - The axis-aligned vector defining the 'up' direction of the portal (length 1, orthogonal to `direction`.
-- `is-entry` - Boolean, whether the portal can be used as an entry.
-- `is-exit` - Boolean, whether the portal can be used as an exit.
+- `up` - The axis-aligned vector defining the 'up' direction of the portal (length 1, orthogonal to `direction`). - Default: `'0, 1, 0'`
+- `is-entry` - Boolean, whether the portal can be used as an entry. - Default: `true`
+- `is-exit` - Boolean, whether the portal can be used as an exit. - Default: `true`
 
 Each group has the following configuration options:
-- `invert` - Whether the entity direction is inverted when teleported.
-- `momentum` - Whether the entity retains its momentum when teleported.
-- `transform-direction` - Whether the entity direction is transformed when teleported.
+- `invert` - Whether the entity direction is inverted when teleported. - Default: `true`
+- `momentum` - Whether the entity retains its momentum when teleported. - Default: `true`
+- `transform-direction` - Whether the entity direction is transformed when teleported. - Default: `true`
 - `portals` - The array of portals.
 
 The root of the configuration is simply `groups` which is a list of portal groups.
