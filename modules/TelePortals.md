@@ -23,6 +23,10 @@ This diagram shows the physical layout of portals and how `invert` affects the d
 
 ![TelePortals Diagram](../images/teleportals-diagram.svg)
 
+Combinations of `is-entry` and `is-exit` portals can be easily used to create many-to-many portal groups, one-to-many portal groups, and many-to-one portal groups.
+
+Portals are visibly indicated by `enchant` particles. If further visual indication is desired, it is recommended to use [Block Display](https://minecraft.wiki/w/Display#Block_Displays) entities. These could even be used to create fake walls or similar constructions.
+
 Example `TelePortals` configuration (from the Hub map):
 
 ```
