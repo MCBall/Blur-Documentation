@@ -31,6 +31,7 @@ Many configuration options use common serializers (how data is formatted). Detai
 - `Intro`
 - `EndGameStats`
 - [`CommandPortals`](modules/CommandPortals.md)
+- [`TelePortals`](modules/TelePortals.md)
 - [`Conquest`](modules/Conquest.md)
 - [`SimpleJumpPads`](modules/SimpleJumpPads.md)
 - [`FixedJumpPads`](modules/FixedJumpPads.md)
