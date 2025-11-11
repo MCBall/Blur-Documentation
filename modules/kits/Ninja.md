@@ -1,5 +1,5 @@
 # Ninja kit
-Reflect paintballs from yourself when reloading.
+Launch yourself with hookshots.
 
 3 - Receive ONE extra hookshot and extended grappling range by 5 blocks. \
 5 - Receive ONE extra hookshot. \
