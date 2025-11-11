@@ -18,6 +18,7 @@ Killstreak options:
 - `ks-7-bounces` - Number of bounces per paintball after a 7 killstreak.
 - `ks-100-bounces` - Number of bounces per paintball after a 100 killstreak.
 
+
 ### Example/default configuration
 ```
 - Paintball:
