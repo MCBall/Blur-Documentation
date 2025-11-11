@@ -12,14 +12,14 @@ Each portal has the following configuration options:
 - `is-exit` - Boolean, whether the portal can be used as an exit. - Default: `true`
 
 Each group has the following configuration options:
-- `invert` - Whether the entity direction is inverted when teleported. - Default: `true`
+- `invert` - Whether the entity direction is inverted relative to the portal direction when teleported. - Default: `true`
 - `momentum` - Whether the entity retains its momentum when teleported. - Default: `true`
 - `transform-direction` - Whether the entity direction is transformed when teleported. - Default: `true`
 - `portals` - The array of portals.
 
 The root of the configuration is simply `groups` which is a list of portal groups.
 
-This diagram shows the physical layout of portals and how `invert` affects the direction that a player exits a portal.
+This diagram shows the physical layout of portals and how `invert` affects the direction that an entity exits a portal. This defines which side of the portal the entity is placed after teleportation.
 
 ![TelePortals Diagram](../images/teleportals-diagram.svg)
 
