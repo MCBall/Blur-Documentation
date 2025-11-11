@@ -2,7 +2,7 @@
 
 The TelePortals module allows portals to be defined that will teleport entities between portals. This requires an extent to be defined for each portal. It's worth noting that the term "portal" here is just semantic, the logic is solely based on the extent which can physically contain anything (or nothing).
 
-![TelePortals Diagram](images/teleportals-diagram.svg)
+![TelePortals Diagram](../images/teleportals-diagram.svg)
 
 Example `TelePortals` configuration:
 
