@@ -17,6 +17,7 @@ Killstreak options:
 - `ks-5-flashbang-duration` - Duration of flashbang effect when hit after a 5 killstreak.
 - `ks-7-cooldown` - Relative duration to be applied to `base-cooldown` after a 7 killstreak.
 
+
 ### Example/default configuration
 ```
 - Paintball:
