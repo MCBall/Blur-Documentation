@@ -30,6 +30,7 @@ Killstreak options:
 - `ks-7-range` - Relative number of blocks to be applied to `base-range` after a 7 killstreak.
 - `ks-7-speed` - Relative number to be applied to `base-speed` after a 7 killstreak.
 
+
 ### Example/default configuration
 ```
 - Paintball:
