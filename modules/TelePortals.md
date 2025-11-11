@@ -2,9 +2,28 @@
 
 The TelePortals module allows portals to be defined that will teleport entities between portals. This requires an extent to be defined for each portal. It's worth noting that the term "portal" here is just semantic, the logic is solely based on the extent which can physically contain anything (or nothing).
 
+The fundamental structure of the module is groups of portals. Each group can have as many portals as desired. When an entity enters a portal, a random portal is selected from the group (of the allowed exit portals), and the entity is teleported to it.
+
+Each portal has the following configuration options:
+- `extent` - A `cuboid` extent covering the portal area.
+- `direction` - The axis-aligned vector defining the active direction of the portal (length 1).
+- `up` - The axis-aligned vector defining the 'up' direction of the portal (length 1, orthogonal to `direction`.
+- `is-entry` - Boolean, whether the portal can be used as an entry.
+- `is-exit` - Boolean, whether the portal can be used as an exit.
+
+Each group has the following configuration options:
+- `invert` - Whether the entity direction is inverted when teleported.
+- `momentum` - Whether the entity retains its momentum when teleported.
+- `transform-direction` - Whether the entity direction is transformed when teleported.
+- `portals` - The array of portals.
+
+The root of the configuration is simply `groups` which is a list of portal groups.
+
+This diagram shows the physical layout of portals and how `invert` affects the direction that a player exits a portal.
+
 ![TelePortals Diagram](../images/teleportals-diagram.svg)
 
-Example `TelePortals` configuration:
+Example `TelePortals` configuration (from the Hub map):
 
 ```
 - Extents:
