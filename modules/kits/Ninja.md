@@ -19,6 +19,7 @@ Killstreak options:
 - `ks-7-range` - Relative number affecting the hookshot range after a 7 killstreak.
 - `ks-7-hookshots-on-reload` - The number of hookshots given when reloading after a 7 killstreak.
 
+
 ### Example/default configuration
 ```
 - Paintball:
