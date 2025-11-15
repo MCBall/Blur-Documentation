@@ -20,7 +20,7 @@ Killstreak options:
 ```
 - Paintball:
   kit-configs:
-  - magneto:
+  - sniper:
       base-cooldown: 25s
       range: 200
       ks-3-cooldown: ~+0s
